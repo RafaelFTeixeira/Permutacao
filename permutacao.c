@@ -8,7 +8,7 @@ void imprimirResultado(int vetor[], int tamanhoDoVetor);
 int main () {
   int vetor[] = {1, 2, 3, 4};
   int tamanhoDoVetor = sizeof(vetor) / sizeof(int);
-  int posicaoDaPermutacaoDesejada = tamanhoDoVetor;
+  int posicaoDaPermutacaoDesejada = 4;
   int posicaoInicial = 0;
   int *posicaoAtual = &posicaoInicial;
 
